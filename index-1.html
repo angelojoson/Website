@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="C:\Users\STD\Desktop\bootstrap-4.6.1-dist\css\bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<title>Monarch University</title>
+
+<head>
+<meta charset="UTF-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <title>Document</title>
+
+</head>
+<body>
+ 
+  <nav class="navbar fixed-top">
+    <!-- LOGO -->
+    <div><img src="logo.png" width="60px" height="58px" class="animation">
+     <span Style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:20px;">MU</span>
+   </div>
+    <span>
+     <input type="text" placeholder="Search">
+     <button class="btn btn-primary"><img src="H.jpg" width="30px" height="30px" style="border-radius:5px;"></img></button>
+       </span>   
+    
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" style="padding:4%;">
+      <label for="checkbox_toggle" class="hamburger"><div class="btn btn-outline-default" style="border-radius:4px; padding:0; margin-top:0.5cm;"><img src="OP.bmp" width="50px"></div></label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="index-1.html">Home</a></li>
+        
+        <li class="nodisplay"><a href="Admission.html">Admission</a>
+        <!-- DROPDOWN MENU -->
+        <ul class="dropdown">
+         <li><a href="Admission.html">Instructions </a></li>
+         <li><a href="UnderApply.html">Undergraduade application</a></li>
+         <li><a href="PostApply.html">Postgraduate application</a></li>
+        
+       </ul>
+     </li>
+        <li class="nodisplay"><a href="Schools.html">Schools</a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="SAD.html">School of art and Design</a></li>
+            <li><a href="SBF.html">School of business and finance</a></li>
+            <li><a href="SIT.html">School of innovative Technology</a></li>
+            <li><a href="SHS.html">School of Health and Science</a></li>
+          </ul>
+        </li>
+        <li class="nodisplay"><a href="Programmes.html">Programmes</a>
+         <ul class="dropdown">
+           <li><a href="UnderProg.html">Undergraduade programmes</a></li>
+           <li><a href="PostProg.html">Postgraduade programmes</a></li>
+         </ul>
+        </li>
+        <li class="nodisplay"><a href="about-us.html">About us</a>
+            <ul class="dropdown">
+                <li><a href="about-us.html">Our History</a></li>
+                <li><a href="Our-campus.html">Our Campus</a></li>
+                <li><a href="Contact us.html">Contact Us</a></li>
+               
+              </ul>
+        </li> 
+      </div>
+    </ul>
+  </nav>
+   
+ <div class="container-fluid">
+   <div class="bord" id="change"> 
+    <a href="about-us.html"><button class="btn btn-primary btn-lg center btnw">More about us</button></a>
+             <div class="abord" style="opacity:0.7; margin-top:3cm;"> 
+                <img src="cu-header2.png" class="center" style="opacity:1!important; max-width:100%;"></img>
+  
+<span style="padding-left:10px;">
+<p style="color:white; opacity:100!important;">
+Monarch University welcomed its first group of students in September 2010 followed by its official inauguration in November 2011. 
+It was registered and licensed by the Government of Mauritius as a national university which will offer high-quality, innovative and market-oriented 
+professional, undergraduate, postgraduate and research programmes.
+</p>
+<p>&nbsp;</p>
+
+</span>
+<a href="Admission.html"><button class="btn btn-outline-info btn-md center"><b>APPLY NOW!</b></button></a>
+<pre>&nbsp;</pre>
+</div>
+<pre>&nbsp;</pre>
+<pre>&nbsp;</pre>
+
+
+
+<a href="about-us.html"><button class="btn btn-primary btn-lg center btnw">More about us</button></a>
+<pre>&nbsp;</pre>
+<pre>&nbsp;</pre>
+</div><!--end of top structure-->
+<script>
+  var index=0;
+     
+    function changeBG(){
+           const section = document.getElementById("change");
+		   const images=['url("RI.jpg")',
+		                 'url("b.gif")',
+					           'url("c.jpg")',
+                     'url("d.jpg")',
+					   
+		   ]
+		  
+		   const bg=images[index];
+		   section.style.backgroundImage=bg;
+		   index++;
+		   
+		   if (index>3){
+		     index=0;
+		   }
+		   
+		   
+	}
+	  
+	setInterval(changeBG,3000 )
+  </script>
+  <h3 class="explore">LATEST NEWS</h3>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <div class="items">APPLICATION DEADLINE FOR UNDERGRADUTE AND POSTGRADUTE PROGRAMMES HAS BEEN EXTENDED TO 30TH AUGUST 2022 AND PAYMENT SHOULD BE MADE BY THE 5 OCTOBER 2022
+        <P><i class="bi-exclamation-triangle-fill" style="font-size: 3rem;"></i></P>
+       </div>
+      
+      </div>
+      <div class="carousel-item">
+        <div class="items">COMUNNQUE TO STUDENTS FOR COLLECTION OF CERTIFICATES
+        FOR THE VIRTUAL CONFERMENT CEREMONY HELD ON 13TH AUGUST 2022
+        <P><i class="bi-exclamation-triangle-fill" style="font-size: 3rem;"></i></P>
+        <P></P>
+        <div class="btn btn-dark">MORE ABOUT</div>
+         
+        </div>
+      </div>
+      <div class="carousel-item">
+       <div class="items" style="background-color: #0058a9;">
+       MONARCH UNIVERSITY LAUNCHES HELP FOR UKRAINE.
+        <p></p>
+        <img src="logo.png" width="100px"class="center">
+         <p></p>
+       <div class="btn btn-primary">MORE ABOUT</div>
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <div class="row" >
+    <p></p>
+   <h2 style="text-align:center;">DISCOVER</h2>
+   <p></p>
+   <div class="col-md-2 center">
+     <p></p>
+     <div class="thumbnail">
+       <a href="SIT.html">
+         <img src="AI.jpg" alt="Nature" style="width:100%;">
+         <div class="cap">
+           <p>School Of Innovative Technology</p>
+         </div>
+       </a>
+     </div>
+   </div>
+   <div class="col-md-2 center">
+     <p></p>
+     <div class="thumbnail">
+       <a href="SHS.html">
+         <img src="SC.jpg" alt="Fjords" style="width:100%">
+         <div class="cap">
+           <p>School of Health and Science</p>
+         </div>
+       </a>
+     </div>
+   </div>
+
+   <div class="col-md-2 center">
+     <p></p>
+     <div class="thumbnail">
+       <a href="SIT.html">
+         <img src="d.jpg" alt="Nature" style="width:100%">
+         <div class="cap">
+           <p>School Of Business And Finance</p>
+         </div>
+       </a>
+     </div>
+   </div>
+   <div class="col-md-2 center">
+     <p></p>
+     <div class=".thumbnail">
+       <a href="SAD.html">
+         <img src="Building.jpg" alt="Lights" style="width:100%" >
+         <div class="cap">
+           <p>SCHOOL OF ART</p>
+         </div>
+       </a>
+     </div>
+   </div>
+   
+   </div>
+ <p></p>
+  <div class="jumbotron cbord" style="overflow-x:auto">
+    <h4>Quick links</h4>
+ <table>
+    <tr>
+        <td><div class="shead">Schools</div></td>
+        <td><div class="shead">About us</div></td>
+        <td><div class="shead">contact us</div></td>
+        <td><div class="shead">Programmes</div></td>
+        <td><div class="shead">Admission</div></td>
+       
+    </tr>
+   
+     
+    <tr>
+      <td><a href="index.html"style="color:aqua">Monarch University</a></td>
+      <td><a href="about-us.html">Our History</a></td>
+      <td><a><i class="bi-facebook"></i></a></td>
+      <td><a>Undergraduate</a></td>
+      <td><a>Instructions</a></td>
+      
+      
+
+    </tr>
+    
+    <tr>
+      <td><a>School of Health and Science</a></td>
+      <td><a>Our Campus</a></td>
+      <td><a><i class="bi-instagram"></i></a></td>
+      <td><a>Postgraduate</a></td>
+      <td><a>Undergraduade application</a></td>
+      
+    </tr>
+    
+    <tr>
+      <td><a>School of Buisiness and Finance</a></td>
+      <td><a>Contact us</a></td>
+      <td><a><i class="bi-telephone">(230)6985471</i></a></td>
+      <td><a></a></td>
+      <td><a>Postgraduate application</a></td>
+      
+    </tr>
+    <tr>
+      <td><a>School of Art and Design</a></td>
+      <td><a></a></td>
+      <td><a><i class="bi-printer">704863</i></a></td>
+      <td><a></a></td>
+      <td><a></a></td>
+      
+    </tr>
+    <tr>
+      <td><a>School of Innovative technology</a></td>
+      <td><a></a></td>
+      <td><a><i class="bi bi-envelope">Monarch@MU.ac.mu</i></a></td>
+      <td><a></a></td>
+      <td><a></a></td>
+      
+      
+
+    </tr>
+   
+</table>
+
+<p style="text-align:center; color:aqua;">Rue BPML La tour koeing Pte Aux Sables</p>
+</div>
+
+ <div class="y" >
+ <a href="index.html">
+  <img src="favicon-crown.png" class="center animation" width="48x" height="48px" style="position:relative;" >
+     </img><div style="text-align:center">©2022 MONARCH UNIVERSITY @ANGELO JOSON
+  
+  </a>
+  </div>
+
+</div>
+</div>
+ </body>
+</html>

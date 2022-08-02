@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="stylesheet" href="C:\Users\STD\Desktop\bootstrap-4.6.1-dist\css\bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<title>	About us | Monarch University</title>
+
+<head>
+<link rel="shortcut icon" type="image/png" href="favicon-crown.png" />
+
+</head>
+
+<body>
+  <nav class="navbar fixed-top">
+    <!-- LOGO -->
+    <div><img src="logo.png" width="60px" height="58px" class="animation">
+     <span Style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:20px;">MU</span>
+   </div>
+    <span>
+     <input type="text" placeholder="Search">
+     <button class="btn btn-primary"><img src="H.jpg" width="30px" height="30px" style="border-radius:5px;"></img></button>
+       </span>   
+    
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" style="padding:4%;">
+      <label for="checkbox_toggle" class="hamburger"><div class="btn btn-outline-default" style="border-radius:4px; padding:0; margin-top:0.5cm;"><img src="OP.bmp" width="50px"></div></label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="index-1.html">Home</a></li>
+        
+        <li class="nodisplay"><a href="Admission.html">Admission</a>
+        <!-- DROPDOWN MENU -->
+        <ul class="dropdown">
+         <li><a href="Admission.html">Instructions </a></li>
+         <li><a href="UnderApply.html">Undergraduade application</a></li>
+         <li><a href="PostApply.html">Postgraduate application</a></li>
+        
+       </ul>
+     </li>
+        <li class="nodisplay"><a href="Schools.html">Schools</a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="SAD.html">School of art and Design</a></li>
+            <li><a href="SBF.html">School of business and finance</a></li>
+            <li><a href="SIT.html">School of innovative Technology</a></li>
+            <li><a href="SHS.html">School of Health and Science</a></li>
+          </ul>
+        </li>
+        <li class="nodisplay"><a href="Programmes.html">Programmes</a>
+         <ul class="dropdown">
+           <li><a href="UnderProg.html">Undergraduade programmes</a></li>
+           <li><a href="PostProg.html">Postgraduade programmes</a></li>
+         </ul>
+        </li>
+        <li class="nodisplay"><a href="about-us.html">About us</a>
+            <ul class="dropdown">
+                <li><a href="about-us.html">Our History</a></li>
+                <li><a href="Our-campus.html">Our Campus</a></li>
+                <li><a href="Contact us.html">Contact Us</a></li>
+               
+              </ul>
+        </li> 
+      </div>
+    </ul>
+  </nav>
+  
+
+  <div class="container-fluid">
+ <!--navbar-->
+
+			 <!--end of navbar-->
+		<!--banner structue-->
+    <div class="container-fluid">
+      <div class="bord" id="change"> 
+                 <div class="abord" style="opacity:0.7; margin-top:3cm;"> 
+					          
+	                    <h1 style="color:white; opacity:1!important; text-align:center" >ABOUT US</h1>
+	       <h4 style="color:white; opacity:1!important; text-align:center" >Our history</h4>
+	
+	   <div style="color:white; opacity:100!important;">
+ <p>Monarch University welcomed its first group of students in September 2010 followed by its official inauguration in November 2011. 
+ It was registered and licensed by the Government of Mauritius as a national university which will offer high-quality, innovative and market-oriented 
+ professional, undergraduate, postgraduate and research programmes.</p>
+ 
+ <P>During its 10 years of existence, MU has gone through some structural changes and an increase in the academic programmes it has to offer.However,
+ what the university has clearly maintained, is its drive to grow and make itself known worldwide; and to play a key role in the transformation of 
+ Mauritius as a knowledge-based society.</p>
+ 
+</p>Monarch University is a young academic and research institution which offers its students high quality programmes, a vibrant university life, and an opportunity 
+for its international students to gain a first-hand experience of life on a tropic island in the middle of the Indian Ocean.</p>
+
+<p>The university has two campuses and students are taught by highly experienced academics, some of which have worked in several universities around the
+ Island.Both campuses are based at Curepipe. The  main campus is at Anse Royale and the Mont Fleuri campus is home to the India – Seychelles 
+ Centre for Excellence in Information and Communication Technology.</p>
+ 
+<p>UM has established three research institutes which work closely with the faculties to promote research activities and forge links with organisations
+ of similar interests.  Through research, the university intends to provide the government with data which will assist in making informed decisions that
+ will benefit the country.</p>
+ 
+ </div>
+ 
+ </div>
+	 
+ <a href="about-us.html"style="align-items:center; display:flex;"><button class="btn btn-primary btn-lg center btnw">Our Campus</button></a>
+
+		  <pre>&nbsp;</pre>
+  </div><!--end of banner-->
+  
+  
+  <script>
+  var index=0;
+     
+    function changeBG(){
+           const section = document.getElementById("change");
+		   const images=['url("RI.jpg")',
+		                 'url("b.gif")',
+					     'url("c.jpg")',
+					   
+		   ]
+		  
+		   const bg=images[index];
+		   section.style.backgroundImage=bg;
+		   index++;
+		   
+		   if (index>2){
+		     index=0;
+		   }
+		   
+		   
+	}
+	  
+	setInterval(changeBG,3000 )
+	
+  </script>
+  
+   <h1 class="explore">EXPLORE</h1>
+   <P></P>
+ 
+
+
+   
+   <div class="jumbotron cbord" style="overflow-x:auto">
+    <h4>Quick links</h4>
+ <table>
+    <tr>
+        <td><div class="shead">Schools</div></td>
+        <td><div class="shead">About us</div></td>
+        <td><div class="shead">contact us</div></td>
+        <td><div class="shead">Programmes</div></td>
+        <td><div class="shead">Admission</div></td>
+       
+    </tr>
+   
+     
+    <tr>
+      <td><a style="color:aqua">Monarch University</a></td>
+      <td><a>Our History</a></td>
+      <td><a><i class="bi-facebook"></i></a></td>
+      <td><a>Undergraduate</a></td>
+      <td><a>Instructions</a></td>
+      
+      
+
+    </tr>
+    
+    <tr>
+      <td><a>School of Health and Science</a></td>
+      <td><a>Our Campus</a></td>
+      <td><a><i class="bi-instagram"></i></a></td>
+      <td><a>Postgraduate</a></td>
+      <td><a>Undergraduade application</a></td>
+      
+    </tr>
+    
+    <tr>
+      <td><a>School of Buisiness and Finance</a></td>
+      <td><a>Contact us</a></td>
+      <td><a><i class="bi-telephone">(230)6985471</i></a></td>
+      <td><a></a></td>
+      <td><a>Postgraduate application</a></td>
+      
+    </tr>
+    <tr>
+      <td><a>School of Art and Design</a></td>
+      <td><a></a></td>
+      <td><a><i class="bi-printer">704863</i></a></td>
+      <td><a></a></td>
+      <td><a>post graduate application</a></td>
+      
+    </tr>
+    <tr>
+      <td><a>School of Innovative technology</a></td>
+      <td><a></a></td>
+      <td><a></i></a></td>
+      <td><a></a></td>
+      <td><a></a></td>
+      
+      
+
+    </tr>
+   
+</table>
+
+<p style="text-align:center; color:aqua;">Rue BPML La tour koeing Pte Aux Sables</p>
+</div>
+ 
+  <div class="y" >
+  <a href="index.html">
+   <img src="favicon-crown.png" class="center animation" width="48x" height="48px" style="position:relative;" >
+      </img><div style="text-align:center">©2022 ANGELO JOSON
+   
+   </a>
+   </div>
+  </div>
+</div>
+
+</body>
+</html>
